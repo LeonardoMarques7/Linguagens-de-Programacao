@@ -110,6 +110,7 @@ body {
 }
 
 .foto-ling {
+  cursor: pointer;
   min-width: 400px;
   max-width: 500px;
   border: solid;
@@ -118,6 +119,7 @@ body {
 }
 
 .logos {
+  cursor: pointer;
   text-align: center;
   width: 150px;
   height: 150px;
