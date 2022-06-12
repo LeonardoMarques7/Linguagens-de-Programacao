@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+
+.icon-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #444444;
+  overflow: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.icon-bar a {
+  text-align: center;
+  padding: 4px 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  flex: 1;
+}
+
+.icon-bar a:hover {
+  background-color: #9864ed;
+}
+
+.cor-fundo {
+  background-color: rgb(192, 192, 192);
+}
+
+.tela-inteira {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: Calibri;
+  background-color: #202124;
+  text-decoration: none;
+}
+
+.sect {
+  padding-top: 100px;
+  margin-top: 100px;
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: Calibri;
+  background-color: #202124;
+  text-decoration: none;
+}
+
+.sect-ini {
+  padding: 100px;
+  margin-top: -36px;
+  font-size: 16px;
+  font-family: Calibri;
+  background-color: #202124;
+  text-decoration: none;
+}
+
+.textos {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  font-family: georgian;
+}
+
+.textos1 {
+  padding: 30px 40px;
+  font-size: 18px;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  font-size: 18px;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.links {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(24, 83, 136);
+}
+.links1 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(83, 178, 255);
+}
+
+.foto-ling {
+  min-width: 400px;
+  max-width: 500px;
+  border: solid;
+  border-color: #e0e0e0;
+  border-radius: 5%;
+}
+
+.logos {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+
+.active {
+  background-color: #003153;
+}
